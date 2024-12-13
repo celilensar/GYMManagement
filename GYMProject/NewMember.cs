@@ -67,7 +67,7 @@ namespace GYMProject
                 }
 
                 // Veritabanı bağlantısı
-                string connectionString = "Data Source=DESKTOP-M4M4Q6P;Initial Catalog=GymDB;Integrated Security=True;Encrypt=False"; // Bağlantı dizesini buraya ekleyin.
+                string connectionString = "Data Source=EMREEROGLU\\SQLEXPRESS;Initial Catalog=GymDB;Integrated Security=True;Encrypt=False"; // Bağlantı dizesini buraya ekleyin.
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
@@ -121,7 +121,7 @@ namespace GYMProject
                             authCommand.ExecuteNonQuery(); // userAuth verisi ekle
                         }
 
-                       // Payment formunu oluşturun ve MemberID'yi geçirin
+                        // Payment formunu oluşturun ve MemberID'yi geçirin
                         Payment paymentForm = new Payment(memberId, membershipPrice);
                         paymentForm.MembershipAmount = membershipPrice; // Fiyatı aktar
                         paymentForm.Show();
@@ -133,6 +133,21 @@ namespace GYMProject
             {
                 MessageBox.Show($"An error occurred: {ex.Message}");
             }
+        }
+
+        private void genderLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void phoneNumberLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void phoneNumberTextBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

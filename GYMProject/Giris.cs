@@ -7,6 +7,7 @@ namespace GYMProject
         public Giris()
         {
             InitializeComponent();
+
         }
 
         private void userNameTextBox_TextChanged(object sender, EventArgs e)
@@ -21,7 +22,7 @@ namespace GYMProject
             string password = passwordTextBox.Text;  // Þifre textBox'ý
 
             // Veritabaný baðlantý dizesi (Deðiþtirin: sunucu, veritabaný adý vb.)
-            string connectionString = "Data Source=DESKTOP-M4M4Q6P;Initial Catalog=GymDB;Integrated Security=True;Encrypt=False";
+            string connectionString = "Data Source=EMREEROGLU\\SQLEXPRESS;Initial Catalog=GymDB;Integrated Security=True;Encrypt=False";
 
             // SQL sorgusu
             string query = "SELECT COUNT(1) FROM UserAuth WHERE Username = @username AND Password = @password";
@@ -61,6 +62,21 @@ namespace GYMProject
                     MessageBox.Show("Bir hata oluþtu: " + ex.Message);
                 }
             }
+        }
+
+        private void userNameLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            panel1.BackColor = Color.FromArgb(204, 255, 255, 255);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

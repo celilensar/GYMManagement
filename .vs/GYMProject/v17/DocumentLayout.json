@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\emree\\OneDrive\\Belgeler\\GitHub\\GYMManagement\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{552086F3-D1D3-4FC2-968C-0E7FC734F4CC}|GYMProject\\GYMProject.csproj|c:\\users\\emree\\onedrive\\belgeler\\github\\gymmanagement\\gymproject\\filename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{552086F3-D1D3-4FC2-968C-0E7FC734F4CC}|GYMProject\\GYMProject.csproj|solutionrelative:gymproject\\filename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{552086F3-D1D3-4FC2-968C-0E7FC734F4CC}|GYMProject\\GYMProject.csproj|c:\\users\\emree\\onedrive\\belgeler\\github\\gymmanagement\\gymproject\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{552086F3-D1D3-4FC2-968C-0E7FC734F4CC}|GYMProject\\GYMProject.csproj|solutionrelative:gymproject\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{552086F3-D1D3-4FC2-968C-0E7FC734F4CC}|GYMProject\\GYMProject.csproj|c:\\users\\emree\\onedrive\\belgeler\\github\\gymmanagement\\gymproject\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{552086F3-D1D3-4FC2-968C-0E7FC734F4CC}|GYMProject\\GYMProject.csproj|solutionrelative:gymproject\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552086F3-D1D3-4FC2-968C-0E7FC734F4CC}|GYMProject\\GYMProject.csproj|C:\\Users\\emree\\OneDrive\\Belgeler\\GitHub\\GYMManagement\\gymproject\\anaekranadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{552086F3-D1D3-4FC2-968C-0E7FC734F4CC}|GYMProject\\GYMProject.csproj|solutionrelative:gymproject\\anaekranadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -28,14 +40,21 @@
               "RelativeDocumentMoniker": "GYMProject\\Giris.cs",
               "ToolTip": "C:\\Users\\emree\\OneDrive\\Belgeler\\GitHub\\GYMManagement\\GYMProject\\Giris.cs",
               "RelativeToolTip": "GYMProject\\Giris.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T12:25:12.587Z",
+=======
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T23:09:47.738Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "FileName.cs",
               "DocumentMoniker": "C:\\Users\\emree\\OneDrive\\Belgeler\\GitHub\\GYMManagement\\GYMProject\\FileName.cs",
               "RelativeDocumentMoniker": "GYMProject\\FileName.cs",
@@ -45,6 +64,27 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T12:13:32.716Z",
               "EditorCaption": ""
+=======
+              "Title": "Giris.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\emree\\OneDrive\\Belgeler\\GitHub\\GYMManagement\\GYMProject\\Giris.cs",
+              "RelativeDocumentMoniker": "GYMProject\\Giris.cs",
+              "ToolTip": "C:\\Users\\emree\\OneDrive\\Belgeler\\GitHub\\GYMManagement\\GYMProject\\Giris.cs [Design]",
+              "RelativeToolTip": "GYMProject\\Giris.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T23:08:10.294Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnaEkranAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\emree\\OneDrive\\Belgeler\\GitHub\\GYMManagement\\GYMProject\\AnaEkranAdmin.cs",
+              "RelativeDocumentMoniker": "GYMProject\\AnaEkranAdmin.cs",
+              "ToolTip": "C:\\Users\\emree\\OneDrive\\Belgeler\\GitHub\\GYMManagement\\GYMProject\\AnaEkranAdmin.cs [Design]",
+              "RelativeToolTip": "GYMProject\\AnaEkranAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T22:18:30.241Z"
+>>>>>>> Stashed changes
             }
           ]
         }

@@ -43,7 +43,7 @@ namespace GYMProject
             try
             {
                 // SQL bağlantısı ve komutları
-                using (var connection = new SqlConnection("Data Source=DESKTOP-M4M4Q6P;Initial Catalog=GymDB;Integrated Security=True;Encrypt=False"))
+                using (var connection = new SqlConnection("Data Source=EMREEROGLU\\SQLEXPRESS;Initial Catalog=GymDB;Integrated Security=True;Encrypt=False"))
                 {
                     connection.Open();
 

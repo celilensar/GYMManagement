@@ -33,20 +33,27 @@
             // 
             // newMemberButton
             // 
-            newMemberButton.Location = new Point(41, 31);
+            newMemberButton.Image = Properties.Resources.add_group__1_;
+            newMemberButton.ImageAlign = ContentAlignment.MiddleLeft;
+            newMemberButton.Location = new Point(12, 13);
+            newMemberButton.Margin = new Padding(3, 4, 3, 4);
             newMemberButton.Name = "newMemberButton";
-            newMemberButton.Size = new Size(118, 23);
+            newMemberButton.Size = new Size(173, 69);
             newMemberButton.TabIndex = 0;
             newMemberButton.Text = "New Member";
+            newMemberButton.TextAlign = ContentAlignment.MiddleRight;
             newMemberButton.UseVisualStyleBackColor = true;
             newMemberButton.Click += newMemberButton_Click;
             // 
             // AnaEkranAdmin
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = Properties.Resources.background;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(914, 600);
             Controls.Add(newMemberButton);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "AnaEkranAdmin";
             Text = "AnaEkranAdmin";
             Load += AnaEkranAdmin_Load;
