@@ -27,14 +27,18 @@ namespace GYMProject
 
         private void Payment_Load(object sender, EventArgs e)
         {
+            
+        }
+        private void Payment_Load_1(object sender, EventArgs e)
+        {
             // MembershipAmount değeri varsa label'a yazdır
             if (MembershipAmount.HasValue)
             {
-                label1.Text = $"Membership Amount: {MembershipAmount.Value} TL";
+                amountLabel1.Text = $"Membership Amount: {MembershipAmount.Value} TL";
             }
             else
             {
-                label1.Text = "Membership Amount: 0 TL"; // Eğer değer yoksa, varsayılan bir değer göster
+                amountLabel1.Text = "Membership Amount: 0 TL"; // Eğer değer yoksa, varsayılan bir değer göster
             }
         }
 
@@ -43,7 +47,11 @@ namespace GYMProject
             try
             {
                 // SQL bağlantısı ve komutları
+<<<<<<< HEAD
                 using (var connection = new SqlConnection("Data Source=EMREEROGLU\\SQLEXPRESS;Initial Catalog=GymDB;Integrated Security=True;Encrypt=False"))
+=======
+                using (var connection = new SqlConnection("Data Source=DESKTOP-FAT5F5N\\SQLEXPRESS01;Initial Catalog=GYMNEW;Integrated Security=True;Encrypt=False"))
+>>>>>>> Eren
                 {
                     connection.Open();
 
@@ -68,9 +76,7 @@ namespace GYMProject
                     MessageBox.Show("Payment successfully recorded!");
                     this.Close();
 
-                    // AnaEkranAdmin formunu aç
-                    AnaEkranAdmin adminForm = new AnaEkranAdmin();
-                    adminForm.Show();
+
                 }
             }
             catch (Exception ex)
@@ -78,5 +84,7 @@ namespace GYMProject
                 MessageBox.Show($"An error occurred: {ex.Message}");
             }
         }
+
+      
     }
 }

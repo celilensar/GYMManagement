@@ -11,6 +11,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
     <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+<<<<<<< HEAD
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +27,8 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+=======
+>>>>>>> Eren
   </ItemGroup>
 
 </Project>
