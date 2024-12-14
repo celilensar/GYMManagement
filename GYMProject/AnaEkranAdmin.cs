@@ -24,16 +24,35 @@
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void memberListButton_Click(object sender, EventArgs e)
+        {
+            MemberList memberListForm = new MemberList();
+            memberListForm.Show();
+
+        }
+
+        private void equipmentButton_Click(object sender, EventArgs e)
         {
             Equipment equipmentForm = new Equipment();
             equipmentForm.Show();
         }
 
-        private void memberList_Click(object sender, EventArgs e)
+        private void newTrainerButton_Click(object sender, EventArgs e)
         {
-            MemberList memberListForm = new MemberList();
-            memberListForm.Show();
+            NewTrainer newTrainerForm = new NewTrainer();
+            newTrainerForm.Show();
+        }
+
+        private void viewTrainersButton_Click(object sender, EventArgs e)
+        {
+            TrainerList trainerListForm = new TrainerList();
+            trainerListForm.Show();
+        }
+
+        private void classesButton_Click(object sender, EventArgs e)
+        {
+            Class classForm = new Class();
+            classForm.Show();
         }
 
         private void LogOutButton_Click(object sender, EventArgs e)

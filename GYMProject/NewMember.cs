@@ -70,7 +70,7 @@ namespace GYMProject
                 }
 
                 // Veritabanı bağlantısı
-                string connectionString = "Data Source=EMREEROGLU\\SQLEXPRESS;Initial Catalog=GYMNEW;Integrated Security=True;Encrypt=False"; // Bağlantı dizesini buraya ekleyin.
+                string connectionString = "Data Source=DESKTOP-FAT5F5N\\SQLEXPRESS01;Initial Catalog=GYMNEW;Integrated Security=True;Encrypt=False"; // Bağlantı dizesini buraya ekleyin.
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
@@ -127,12 +127,8 @@ VALUES (@MemberID, @MembershipType, @Price, @StartDate, @EndDate)";
                             authCommand.ExecuteNonQuery(); // userAuth verisi ekle
                         }
 
-                        // Payment formunu oluşturun ve MemberID'yi, fiyatı ve diğer bilgileri geçirin
-                        string fullName = $"{firstNameTextBox.Text} {lastNameTextBox.Text}";
-                        string email = emailTextBox.Text;
-                        string membershipType = membershipTypeComboBox.SelectedItem.ToString();
-
-                        Payment paymentForm = new Payment(memberId, membershipPrice, fullName, email, membershipType);
+                       // Payment formunu oluşturun ve MemberID'yi geçirin
+                        Payment paymentForm = new Payment(memberId, membershipPrice);
                         paymentForm.MembershipAmount = membershipPrice; // Fiyatı aktar
                         paymentForm.Show();
                         this.Hide(); // NewMember formunu gizle
@@ -143,13 +139,6 @@ VALUES (@MemberID, @MembershipType, @Price, @StartDate, @EndDate)";
             {
                 MessageBox.Show($"An error occurred: {ex.Message}");
             }
-        }
-
-      
-
-        private void NewMember_Load(object sender, EventArgs e)
-        {
-        
         }
     }
 }
